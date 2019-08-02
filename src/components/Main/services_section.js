@@ -32,10 +32,10 @@ export default function services_section() {
             </div>
             <div class="col-lg-3 col-md-6">
               <div class="feature_item">
-                <img src={require('../../assets/laravel_logo.png')} alt=""/>
+                <img src={require('../../assets/nodejs.png')} alt=""/>
                 <h4>Restful APIS development</h4>
                 <p>REST API integration.<br/>
-                  REST API development with laravel.<hr/></p>
+                  REST API development with Node.js .<hr/></p>
               </div>
             </div>
           </div>
