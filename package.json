@@ -2,7 +2,7 @@
   "name": "personal-site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://maeenbadea.github.io/personal-site",
+  "homepage": "http://maeenbadea.github.io/personal-site/",
   "dependencies": {
     "emailjs-com": "^2.3.2",
     "gh-pages": "^2.0.1",
@@ -17,7 +17,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "yarn build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
