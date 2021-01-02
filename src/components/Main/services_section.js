@@ -1,5 +1,6 @@
 import React from 'react'
 
+const HEIGHT = 50;
 export default function services_section() {
     return (
     
@@ -25,9 +26,12 @@ export default function services_section() {
             </div>
             <div class="col-lg-3 col-md-6">
               <div class="feature_item">
+
                 <img src={require('../../assets/reactnative_logo.png')} alt=""/>
+                <img src={require('../../assets/flutter.png')} style={{width:HEIGHT, height:HEIGHT, borderRadius:HEIGHT/2}} alt=""/>
+
                 <h4>Mobile Apps development</h4>
-                <p>Cross-platform React native apps built with efficiency and speed for Android and iOS at once.</p>
+                <p>Cross-platform reactnative &amp; flutter apps built with efficiency and speed for Android and iOS at once.</p>
               </div>
             </div>
             <div class="col-lg-3 col-md-6">
