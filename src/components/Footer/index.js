@@ -30,11 +30,7 @@ export default function index() {
 					</div>
 				</div>
 			</div>
-			<div class="row footer_bottom footer_center">
-				<p class="col-lg-8 col-sm-12 footer-text">
-                Copyright &copy;{new Date().getFullYear()} All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a target="_blank" href="https://colorlib.com" target="_blank">Colorlib</a>
-                </p>
-			</div>
+			
 		</div>
 	</footer>
     )
